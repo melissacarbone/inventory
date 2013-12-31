@@ -1,0 +1,19 @@
+<%= notice %>
+
+<p>
+  <strong>Title:</strong>
+  <%= @food.title %>
+  <br>
+</p>
+<p>
+  <strong>Description:</strong>
+  <%= @food.description %>
+</p>
+<p>
+  <strong>Quantity:</strong>
+  <%= @food.quantity %>
+</p>
+
+
+<%= link_to 'Edit', edit_food_path(@food) %> |
+<%= link_to 'Back', foods_path %>
